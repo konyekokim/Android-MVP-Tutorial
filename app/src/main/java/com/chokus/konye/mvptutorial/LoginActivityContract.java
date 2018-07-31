@@ -4,7 +4,7 @@ public interface LoginActivityContract {
 
     interface View{
         void successfulLogin(LoginResponseModel loginResponseModel);
-        void showError();
+        void showError(String call, String statusMessage);
         void showProgress();
         void hideProgress();
         void showComplete();

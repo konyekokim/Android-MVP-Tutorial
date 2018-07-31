@@ -8,7 +8,7 @@ public interface ApiService {
 
     @POST("login")
     Observable<LoginResponseModel> getLoginResponse(
-            @Query("email") String email,
+            @Query("username") String username,
             @Query("password") String password);
 
 }
