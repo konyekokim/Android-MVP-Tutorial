@@ -1,4 +1,4 @@
-package com.chokus.konye.mvptutorial;
+package com.chokus.konye.mvptutorial.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

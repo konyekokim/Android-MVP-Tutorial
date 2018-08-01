@@ -2,10 +2,11 @@ package com.chokus.konye.mvptutorial;
 
 import android.util.Log;
 
+import com.chokus.konye.mvptutorial.model.LoginResponseModel;
+
 import javax.inject.Inject;
 
 import io.reactivex.Observer;
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;

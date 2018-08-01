@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import com.chokus.konye.mvptutorial.component.ApplicationComponent;
 import com.chokus.konye.mvptutorial.component.DaggerLoginActivityComponent;
 import com.chokus.konye.mvptutorial.component.LoginActivityComponent;
+import com.chokus.konye.mvptutorial.model.LoginResponseModel;
 import com.chokus.konye.mvptutorial.module.LoginActivityContextModule;
 import com.chokus.konye.mvptutorial.module.LoginActivityMvpModule;
 import com.chokus.konye.mvptutorial.qualifier.ActivityContext;

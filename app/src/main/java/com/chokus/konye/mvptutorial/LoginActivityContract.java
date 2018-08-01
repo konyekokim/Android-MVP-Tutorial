@@ -1,5 +1,7 @@
 package com.chokus.konye.mvptutorial;
 
+import com.chokus.konye.mvptutorial.model.LoginResponseModel;
+
 public interface LoginActivityContract {
 
     interface View{
